@@ -5,8 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w",
-    "start": "nodemon ./server/index.js"
+    "build": "node init && webpack -w",
+    "start": "node init && nodemon ./server/index.js"
   },
   "author": "",
   "license": "ISC",
